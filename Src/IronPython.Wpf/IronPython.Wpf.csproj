@@ -4,10 +4,15 @@
 
   <PropertyGroup>
     <TargetFrameworks>net45</TargetFrameworks>
-    <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">$(TargetFrameworks);netcoreapp3.1</TargetFrameworks>
-    <DocumentationFile>$(OutputPath)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
-    <StoreInDLLs>true</StoreInDLLs>
+    <DocumentationFile></DocumentationFile>
     <UseWPF Condition=" '$(OS)' == 'Windows_NT' ">true</UseWPF>
+    <AssemblyName>pyRevitLabs.IronPython.Wpf</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\..\..\..\..\bin\engines\default\</OutputPath>
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
   </PropertyGroup>
 
   <ItemGroup>
