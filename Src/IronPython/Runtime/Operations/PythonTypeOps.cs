@@ -173,7 +173,7 @@ namespace IronPython.Runtime.Operations {
             }
 
             AssemblyName assemblyName = new AssemblyName(assembly.FullName);
-            if (assemblyName.Name.Equals("IronPython.Modules")) { // IronPython.Modules.dll
+            if (assemblyName.Name.Equals("pyRevitLabs.IronPython.Modules")) { // IronPython.Modules.dll
                 return true;
             }
 
