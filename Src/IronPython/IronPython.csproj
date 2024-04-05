@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netcoreapp3.1;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net48;netstandard2.0</TargetFrameworks>
     <BaseAddress>879755264</BaseAddress>
     <CodeAnalysisRuleSet>..\..\IronPython.ruleset</CodeAnalysisRuleSet>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -48,7 +48,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Modules\unicodedata\IPyUnicodeData.txt.gz" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0">
       <PrivateAssets>all</PrivateAssets>
