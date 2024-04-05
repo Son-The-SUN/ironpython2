@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <id>IronPython</id>
+    <id>pyrevitLabs.IronPython</id>
     <title>IronPython</title>
     <version>2.7.12</version>
     <authors>IronPython Contributors,Microsoft</authors>
@@ -32,9 +32,9 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="**\IronPython*.dll" target="lib" exclude="**\IronPythonTest.dll;**\DLLs\*.dll;netcoreapp2.1\**\*;net5.0*\**\*;net6.0*\**\*" />
-    <file src="**\IronPython*.pdb" target="lib" exclude="**\IronPythonTest.pdb;**\DLLs\*.pdb;netcoreapp2.1\**\*;net5.0*\**\*;net6.0*\**\*" />
-    <file src="**\IronPython*.xml" target="lib" exclude="**\IronPythonTest.xml;**\DLLs\*.xml;netcoreapp2.1\**\*;net5.0*\**\*;net6.0*\**\*" />
+    <file src="**\pyrevitLabs.IronPython*.dll" target="lib" exclude="**\IronPythonTest.dll;**\DLLs\*.dll;netcoreapp2.1\**\*;net5.0*\**\*;net6.0*\**\*" />
+    <file src="**\pyrevitLabs.IronPython*.pdb" target="lib" exclude="**\IronPythonTest.pdb;**\DLLs\*.pdb;netcoreapp2.1\**\*;net5.0*\**\*;net6.0*\**\*" />
+    <file src="**\pyrevitLabs.IronPython*.xml" target="lib" exclude="**\IronPythonTest.xml;**\DLLs\*.xml;netcoreapp2.1\**\*;net5.0*\**\*;net6.0*\**\*" />
     <file src="LICENSE;README.md" />
   </files>
 </package>
