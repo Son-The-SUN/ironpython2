@@ -1832,7 +1832,7 @@ namespace IronPython.Runtime
             Assembly ironPythonModules = null;
 
             try {
-                ironPythonModules = DomainManager.Platform.LoadAssembly(GetIronPythonAssembly("IronPython.Modules"));
+                ironPythonModules = DomainManager.Platform.LoadAssembly(GetIronPythonAssembly("pyRevitLabs.IronPython.Modules"));
             } catch (FileNotFoundException) {
                 // IronPython.Modules is not available, continue without it...
             }
