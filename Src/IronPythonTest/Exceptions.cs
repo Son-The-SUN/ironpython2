@@ -45,8 +45,8 @@ namespace IronPythonTest {
         public object CatchAndRethrow() {
             try {
                 CallVirtual();
-            } catch (Exception e) {
-                throw e;
+            } catch (Exception) {
+                throw;
             }
             return null;
         }

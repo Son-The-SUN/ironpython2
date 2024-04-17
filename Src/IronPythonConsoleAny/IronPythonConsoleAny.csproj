@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net45;netcoreapp2.1;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net48;net6.0</TargetFrameworks>
     <OutputType>Exe</OutputType>
     <RootNamespace>IronPythonConsole</RootNamespace>
     <AssemblyName>ipy</AssemblyName>
@@ -15,6 +15,8 @@
     <ProjectReference Include="..\IronPython\IronPython.csproj" />
     <ProjectReference Include="..\IronPython.Modules\IronPython.Modules.csproj">
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <OutputItemType>Content</OutputItemType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
 
@@ -41,7 +43,7 @@
     <LateStageItem Include="$(TargetDir)\%2A%2A\%2A.runtimeconfig.json" />
     <LateStageitem Include="$(TargetDir)\%2A%2A\System.%2A.dll" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0">
       <PrivateAssets>all</PrivateAssets>

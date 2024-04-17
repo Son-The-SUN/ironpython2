@@ -20,9 +20,10 @@
           Inputs="$(NuSpecInputs)"
           Outputs="$(NuPkgOutputs)">
     <ItemGroup>
-      <DLLsFiles Include="**\DLLs\IronPython.*.dll" />
-      <DLLsFiles Include="**\DLLs\IronPython.*.pdb" />
-      <DLLsFiles Include="**\DLLs\IronPython.*.xml" />
+      <DLLsFiles Include="**\DLLs\pyRevitLabs.IronPython.*.dll" />
+      <DLLsFiles Include="**\DLLs\pyRevitLabs.IronPython.*.dll" />
+      <DLLsFiles Include="**\DLLs\pyRevitLabs.IronPython.*.pdb" />
+      <DLLsFiles Include="**\DLLs\pyRevitLabs.IronPython.*.xml" />
     </ItemGroup>
 
     <!-- Copy the files from DLLs into the main directory for nuget packaging -->
