@@ -103,3 +103,4 @@ build-*.ProjectImports.zip
 /Package/deb/temp/
 /Package/pkg/temp/
 /Src/IronPython/Lib/iptest/__pycache__
+*.pyc
